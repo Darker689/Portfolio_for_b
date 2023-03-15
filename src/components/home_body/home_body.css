@@ -1,0 +1,126 @@
+.home_body {
+    width: 100%;
+    background: var(--wht);
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.home_body_nav {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.home_body_nav p {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.home_body_links {
+    display: flex;
+    gap: 15px;
+}
+
+.home_body_links a {
+    color: var(--gry2);
+    font-weight: 700;
+}
+
+.home_body_links a:focus-within {
+    color: var(--blue);
+}
+
+.home_body_posts {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 20px;
+}
+
+.home_body_post {
+    width: 32%;
+    max-width: 500px;
+    min-width: 200px;
+    background: var(--gry);
+    border-radius: 10px;
+}
+
+.home_body_post_img {
+    width: 100%;
+    border-radius: inherit;
+}
+
+.home_body_post_img img {
+    width: 100%;
+    object-fit: contain;
+    mix-bland-mode: multipy;
+    border-radius: inherit;
+}
+
+.home_body_post_bottom {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.home_body_post_bottom_user {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home_body_post_bottom_user_img {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    border: 1px solid var(--gry2);
+}
+
+.home_body_post_bottom_user_img img {
+    width: 100%;
+    border-radius: inherit;
+}
+
+.home_body_post_bottom_heart,
+.home_body_post_bottom_message {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.home_body_post_bottom_heart i {
+    font-size: 25px;
+    margin-top: 5px;
+    color: var(--red);
+}
+
+.home_body_post_bottom_message i {
+    font-size: 25px;
+    margin-top: 5px;
+    color: var(--blue);
+}
+
+@media screen and (max-width: 1270px) {
+    .home_body_post{
+        width: 32%;
+        max-width: 600px;
+        min-width: 300px;
+        background: var(--gry);
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+    }
+}
+@media screen and (max-width: 768px) {
+    .home_body{
+        margin-top: 30px;
+    }
+}

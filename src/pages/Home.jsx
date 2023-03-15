@@ -1,8 +1,10 @@
-import React from 'react'
+import HomeBody from '../components/home_body/HomeBody'
 
 const Home = () => {
   return (
-    <div>Home page</div>
+    <>
+      <HomeBody/>
+    </>
   )
 }
 

@@ -10,7 +10,7 @@ const MainRoute = () => {
     return (
         <>
             <Navbar />
-            <div className='flex container'>
+            <div className='flex'>
                 <Sidebar />
                 <Routes>
                     <Route path='/' element={<Home />} />
