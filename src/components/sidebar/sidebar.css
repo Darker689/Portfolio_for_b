@@ -2,7 +2,6 @@
     width: 250px;
     background: var(--wht);
     margin-top: 10px;
-    border-radius: 10px;
     padding-bottom: 30px;
 }
 
@@ -22,6 +21,7 @@
 .sidebar_link:hover {
     opacity: 1;
     box-shadow: inset rgba(121, 121, 217, 0.2) 0px 7px 29px 0px;
+    border-radius: inherit;
 }
 
 .sidebar_link i {
