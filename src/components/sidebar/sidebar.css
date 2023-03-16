@@ -1,5 +1,6 @@
 .sidebar {
     width: 20%;
+    height: max-content;
     background: var(--wht);
     margin-top: 10px;
     padding-bottom: 30px;
