@@ -5,11 +5,11 @@ import MainRoute from "./routes/MainRoute";
 
 function App() {
   return (
-    <>
+    <div className="every_site">
       <BrowserRouter>
         <MainRoute/>
       </BrowserRouter>
-    </>
+    </div>
   );
 }
 

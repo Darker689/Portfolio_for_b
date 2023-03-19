@@ -45,4 +45,14 @@ input{
     width: 100%;
     display: flex;
     gap: 20px;
+    background: var(--gry);
+    padding: 10px;
+}
+
+.every_site{
+    width: 90%;
+    margin: 20px auto;
+    background: var(--wht);
+    border-radius: 20px;
+    padding: 10px;
 }

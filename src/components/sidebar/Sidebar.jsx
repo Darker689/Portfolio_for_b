@@ -57,8 +57,8 @@ const Sidebar = () => {
                                 <img src={img} alt="" />
                             </div>
                             <div className="sidebar_group_txt">
-                                <p className='sidebar_group_txt_title'>Twitter</p>
-                                <p className='sidebar_group_txt_subtitle'>Twitter</p>
+                                <p className='sidebar_group_txt_title'>Twitter Twitter Twitter Twitter Twitter Twitter Twitter Twitter Twitter Twitter Twitter Twitter</p>
+                                <p className='sidebar_group_txt_subtitle'>Twitter Twitter Twitter Twitter Twitter Twitter Twitter Twitter Twitter Twitter Twitter Twitter</p>
                             </div>
                         </div>
                         <p className='sidebar_group_number'>2</p>
