@@ -10,7 +10,7 @@ import './navbar.css'
 
 const Navbar = () => {
   return (
-    <div className='navbar'>
+    <div className='navbar' id='navbar'>
         <div className="container">
             <div className="navbar_main">
                 <div className="nav_logo">

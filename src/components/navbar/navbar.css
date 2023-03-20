@@ -3,6 +3,8 @@
     height: 70px;
     background: var(--wht);
     padding: 0 20px;
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
 }
 
 .navbar_main {

@@ -3,7 +3,7 @@ import { useState } from 'react'
 // router dom
 import { Link } from 'react-router-dom'
 // icons
-import { AiFillHome } from 'react-icons/ai'
+import { AiFillHome, AiOutlineBgColors } from 'react-icons/ai'
 import { BsBookmarksFill } from 'react-icons/bs'
 import { FaFacebookMessenger } from 'react-icons/fa'
 import { FiArrowRight, FiArrowLeft } from 'react-icons/fi'
@@ -20,7 +20,7 @@ const Sidebar = () => {
     const handleSidenav = () => setSidenav(!sidenav);
 
     return (
-        <div className={sidenav ? 'sidebar sidebar_none' : 'sidebar'}>
+        <div className={sidenav ? 'sidebar sidebar_none' : 'sidebar'} id='sidebar'>
             <div className='fixed' onClick={handleSidenav}>
                 {
                     sidenav ? 
@@ -44,6 +44,10 @@ const Sidebar = () => {
                 <Link to='/' className="sidebar_link">
                     <i><BsBookmarksFill /></i>
                     <p>Bookmarks</p>
+                </Link>
+                <Link to='/change-color' className="sidebar_link">
+                    <i><AiOutlineBgColors /></i>
+                    <p>Change Colors</p>
                 </Link>
             </div>
             <hr className='sidebar_hr' />

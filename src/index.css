@@ -14,7 +14,7 @@ body {
 }
 
 :root{
-    --wht: #fff;
+    --wht: #ffffff;
     --blc: #000;
     --gry: #F8F8F8;
     --gry1: #cccc;
@@ -49,10 +49,18 @@ input{
     padding: 10px;
 }
 
+.flex_width{
+    width: 80%;
+}
+
 .every_site{
     width: 90%;
     margin: 20px auto;
     background: var(--wht);
     border-radius: 20px;
     padding: 10px;
+}
+
+.color{
+    background: yellow;
 }
