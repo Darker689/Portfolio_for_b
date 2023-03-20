@@ -26,6 +26,7 @@ const ChangeColorBody = () => {
       <div className="change_color_body_box red" onClick={() => { click('red') }}></div>
       <div className="change_color_body_box blue" onClick={() => { click('blue') }}></div>
       <div className="change_color_body_box orange" onClick={() => { click('orange') }}></div>
+      <div className="change_color_body_box white" onClick={() => { click('white') }}></div>
     </div>
   )
 }
